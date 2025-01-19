@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-family: "Open Sans" , sans-serif;
+}
+/* NAV bolumu */
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background-color: #336ea2;
+    border-radius: 4px;
+    
+}
+/* home bolumu */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px gray solid;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+/* Egitimler */
+#training{
+    color: #fff;
+    padding: 1rem;
+    
+}
+#training .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#training .items .item:hover{
+    color: red;
+    opacity: 0.5;
+}
+/* Kurslar */
+#courses{
+    color: #333
+    ;padding: 1rem;
+
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .cours{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.courses .cours .cours-img{
+    margin-left: 0.5rem;
+    position: relative;
+
+    
+}
+.courses .cours .cours-img img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    
+}
+.courses .cours .cours-img span{
+    background-color: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+
+}
+.courses .cours .cours-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25px;
+
+}
+.courses .cours .cours-info .description{
+    letter-spacing: 1.2px;
+   opacity: 0.6;
+    margin-bottom: 0.25px;
+    
+}
+.courses .cours .cours-info .instructer{
+   font-size: 0.8rem;
+   opacity: 0.6;
+   margin-bottom: 0.25px;
+}
+.courses .cours .cours-info .rating{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 0.25px;
+ }
+
+ /* form */
+ #contact{
+    color: #fff;
+    padding: 1rem;
+
+ }
+
+ #contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column; 
+ }
